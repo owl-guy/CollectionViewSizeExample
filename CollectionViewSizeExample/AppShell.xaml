@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CollectionViewSizeExample.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CollectionViewSizeExample"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.ForegroundColor="Gray"
+    Title="CollectionViewSizeExample">
+
+    <FlyoutItem Title="MainPage" Route="MainPage">
+        <ShellContent
+            ContentTemplate="{DataTemplate local:MainPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="SecondPage" Route="SecondPage">
+        <ShellContent
+        ContentTemplate="{DataTemplate local:SecondPage}" />
+    </FlyoutItem>
+
+</Shell>
